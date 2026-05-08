@@ -1,0 +1,7 @@
+runs/
+Construction-Site-Safety-1/
+Face-Mask-1/
+crowd-counting-1/
+*.pt
+*.engine
+__pycache__/

@@ -1,0 +1,32 @@
+names:
+- Barricade
+- Dumpster
+- EXCAVATORS
+- Gloves
+- Hardhat
+- Mask
+- NO-Hardhat
+- NO-Mask
+- NO-Safety Vest
+- Person
+- Safety Net
+- Safety Shoes
+- Safety Vest
+- dump truck
+- mini-van
+- truck
+- wheel loader
+- mask_weared_incorrect
+- with_mask
+- without_mask
+- '0'
+nc: 21
+path: /home/sachin/HazardsAndStemppedPrevention
+train:
+- Construction-Site-Safety-1/train/images
+- Face-Mask-1/train/images
+- crowd-counting-1/train/images
+val:
+- Construction-Site-Safety-1/valid/images
+- Face-Mask-1/valid/images
+- crowd-counting-1/valid/images
