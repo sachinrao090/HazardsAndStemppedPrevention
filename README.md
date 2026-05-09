@@ -43,14 +43,17 @@ The deployment architecture is highly optimized for local Edge computing, comple
 ---
 ## 📸 System Previews
 
+## 📸 System Previews
+
 ### 1. Live Monitoring Station (Powered by TensorRT)
 *Achieving high-speed edge compute using custom TensorRT FP16 layer fusion, successfully triggering asynchronous 'NO-Hardhat' alerts.*
-![Live Dashboard](image_abffe1.jpg)
+
+![Live Dashboard](Screenshot%20from%202026-05-09%14-50-19.png)
 
 ### 2. Analytics & Incident Reporting
 *Real-time automated logging of safety violations into a Pandas DataFrame, featuring one-click CSV report exporting for compliance managers.*
+
 ![Analytics Tab](Screenshot%20from%202026-05-09%2014-40-58.png)
----
 ## 📊 Training Results & Model Evaluation
 The YOLOv8 unified model was trained over 100 epochs, evaluating 21 distinct classes. The performance metrics below highlight the model's proficiency in core industrial hazard detection.
 
