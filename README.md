@@ -48,7 +48,7 @@ The deployment architecture is highly optimized for local Edge computing, comple
 ### 1. Live Monitoring Station (Powered by TensorRT)
 *Achieving high-speed edge compute using custom TensorRT FP16 layer fusion, successfully triggering asynchronous 'NO-Hardhat' alerts.*
 
-![Live Dashboard](Screenshot%20from%202026-05-09%14-50-19.png)
+![Live Dashboard](Screenshot%20from%202026-05-09%2014-50-19.png)
 
 ### 2. Analytics & Incident Reporting
 *Real-time automated logging of safety violations into a Pandas DataFrame, featuring one-click CSV report exporting for compliance managers.*
@@ -58,7 +58,7 @@ The deployment architecture is highly optimized for local Edge computing, comple
 The YOLOv8 unified model was trained over 100 epochs, evaluating 21 distinct classes. The performance metrics below highlight the model's proficiency in core industrial hazard detection.
 
 ### 1. Training Convergence (`results.png`)
-![Training Results](results.jpg)
+![Training Results](results.png)
 The training graphs demonstrate healthy model convergence. The **Box Loss** and **Class Loss** decrease consistently across both training and validation sets, indicating the model successfully learned spatial boundaries without severe overfitting.
 
 ### 2. Dataset Distribution (`labels.jpg`)
@@ -70,19 +70,19 @@ Our dataset mimics real-world industrial environments, inherently featuring an i
 *(Note: Minor classes like `Gloves` and `Safety Net` were included for architectural scaling but have lower instance counts).*
 
 ### 3. Confusion Matrix Analysis
-![Normalized Confusion Matrix](confusion_matrix_normalized.jpg)
+![Normalized Confusion Matrix](confusion_matrix_normalized.png)
 The normalized confusion matrix proves the system's high reliability in preventing heavy-machinery accidents.
 * **Heavy Machinery:** `EXCAVATORS` achieved **1.00 (100%) accuracy**, while `wheel loader` (82%) and `dump truck` (75%) also showed strong true-positive rates.
 * **PPE Detection:** The model successfully isolates `Hardhat` features (58%), though background elements in highly complex environments can occasionally mimic safety gear. 
 
 ### 4. Precision, Recall, and F1-Score Confidence
-![F1 Curve](BoxF1_curve.jpg)
+![F1 Curve](BoxF1_curve.png)
 * **Precision-Recall (PR) Curve:** The model achieved an overall `mAP@0.5` of **0.307**. However, class-specific PR curves reveal that critical safety classes perform exceptionally well (e.g., `wheel loader` at 0.931 and `dump truck` at 0.764).
 * **Optimal Confidence:** The F1-Confidence curve indicates an optimal global confidence threshold of **0.667** for a peak balance between Precision and Recall. The live Control Center UI features an adjustable threshold, allowing site managers to prioritize Recall (ensuring no hazard is missed).
 
 ---
 ## ⚙️ Local Setup (For Evaluators)
-*Note: Due to GitHub file size limits, the heavy `best.pt` model weights and raw datasets are not included in this repository. Please view the demo videos linked at the top for the complete system walkthrough.*
+*Note: Due to GitHub file size limits, the heavy `best.pt` model weights and raw datasets are not included in this repository. Please view the demo videos linked at the top for the complete system walkthrough . The links to the datasets I used are in HazStmPrevention.ipynb.*
 
 ```bash
 # 1. Clone the repository
