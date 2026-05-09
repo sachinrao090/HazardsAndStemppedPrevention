@@ -70,7 +70,7 @@ def log_hazard(label: str, conf: float):
 # 3. SIDEBAR NAVIGATION & CONTROLS
 # ==========================================
 with st.sidebar:
-    # Now it just looks inside the current project folder!
+    
     st.image("attachment_159171845.png", use_container_width=True) 
     st.title("System Controls")
     st.markdown("---")

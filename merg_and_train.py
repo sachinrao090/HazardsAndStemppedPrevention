@@ -82,7 +82,7 @@ results = model.train(
     epochs=100,
     imgsz=640,
     device=0,      # Utilizes  GPU
-    batch=16,      # Adjust to 8 if you get "Out of Memory"
+    batch=16,      
     name="Unified_Safety_Model",
     exist_ok=True
 )

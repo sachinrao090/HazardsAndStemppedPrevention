@@ -1,4 +1,4 @@
-# 🛡️ Hazards and Stepped Prevention (HSP)
+# 🛡️ Hazards and Stempped Prevention (HSP)
 **Real-Time Unified Industrial & Public Safety Monitoring Station**
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
