@@ -48,7 +48,7 @@ The deployment architecture is highly optimized for local Edge computing, comple
 ### 1. Live Monitoring Station (Powered by TensorRT)
 *Achieving high-speed edge compute using custom TensorRT FP16 layer fusion, successfully triggering asynchronous 'NO-Hardhat' alerts.*
 
-![Live Dashboard](Screenshot%20from%202026-05-09%2014-50-19.png)
+![Live Dashboard](Screenshot%20from%202026-05-09%2015-49-13.png)
 
 ### 2. Analytics & Incident Reporting
 *Real-time automated logging of safety violations into a Pandas DataFrame, featuring one-click CSV report exporting for compliance managers.*
